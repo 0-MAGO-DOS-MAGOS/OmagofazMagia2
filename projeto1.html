@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Display</title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+
+</head>
+
+<body class="d-flex-column min-vh-100">
+    <!-- CABEÇALHO -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"
+            style="background-image: linear-gradient(to right, #fff3d0, #ffc28f, #ff817f, #ff2aa4, #bb12eb);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Explicando Display</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Em desenvolvimento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+
+    <!-- CONTEUDO COM AS SECTIONS DA PAGINA -->
+    <main class="flex-fill">
+        <section>
+            <div style="height: 90vh;background-color: azure;">
+                <div class="row" style="height: 90vh;">
+                    <div class="col-12 col-md-6"
+                        style="background-color: rgb(255, 243, 208); display: flex;justify-content: center; align-items: center;flex-direction: column;">
+                        <h1>Venha aprender HTML e CSS!</h1>
+                        <br>
+                        <br>
+                        <p>Guia feito para os meus ALUNOS do Sesi</p>
+                        <button type="button" class="btn btn-outline-primary">Clique aqui par Aprender Display</button>
+                    </div>
+
+                    <div class="col-12 col-md-6"
+                        style="background-color: blueviolet;display: flex;justify-content: center; align-items: center;flex-direction: column;">
+                        <h2> CONTEUDOS:</h2>
+                        <br>
+                        <br>
+                        <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 100%;">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        HTML
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">HTML, sigla para HyperText Markup Language, é a
+                                        linguagem de marcação fundamental para estruturar o conteúdo de páginas web,
+                                        sendo o "bloco de construção" da internet. Ela define a estrutura e o
+                                        significado de textos, imagens, vídeos e outros elementos através de tags, que
+                                        são interpretadas por navegadores como Chrome ou Firefox para apresentar a
+                                        página ao utilizado</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        CSS
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">CSS, ou Folhas de Estilo em Cascata, é uma linguagem
+                                        usada para descrever a apresentação de documentos HTML ou XML. Em termos
+                                        simples, o CSS define como os elementos de uma página web devem ser exibidos,
+                                        incluindo cores, fontes, layout e outros aspectos visuais. O CSS trabalha em
+                                        conjunto com o HTML, que define a estrutura do conteúdo, enquanto o CSS adiciona
+                                        estilo e apresentação.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div
+                style="height: 50vh; background-color: #bb12eb; display: flex;justify-content: center; align-items: center;flex-direction: column;">
+                <h1> O que é a propriedade Display em CSS</h1>
+                <br>
+                <p style="text-align: center;">
+                    A display: flex; propriedade CSS inicia o módulo Layout de Caixa Flexível, comumente conhecido como
+                    Flexbox, para um determinado elemento HTML. Quando aplicada a um elemento contêiner, ela transforma
+                    esse elemento em um contêiner flexível, e seus filhos diretos se tornam itens flexíveis.
+                    Essa propriedade fornece uma maneira poderosa e eficiente de organizar, alinhar e distribuir espaço
+                    entre itens dentro de um contêiner, mesmo quando seu tamanho é desconhecido ou dinâmico.
+                </p>
+            </div>
+            <div>
+                <div
+                    style="height: 50vh; background-color: #ff2aa4;display: flex;justify-content: center; align-items: center;flex-direction: column;overflow-y:scroll;">
+                    <table class="table table-hover table-responsive-sm mt-5" style="margin-top: 120px;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Display</th>
+                                <th scope="col">Caracteristicas</th>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">block</th>
+                                <td>A display: block; declaração CSS renderiza um elemento HTML como um elemento de
+                                    nível de bloco. Isso significa que o elemento irá:
+                                    Comece em uma nova linha:
+                                    Ele ocupará sua própria linha no fluxo do documento, empurrando os elementos
+                                    subsequentes abaixo dela.</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">inline</th>
+                                <td>A propriedade CSS display: inline; faz com que um elemento se comporte como um
+                                    elemento de nível embutido. Isso significa que o elemento irá:
+                                    Não começar em uma nova linha: ele fluirá junto com outro conteúdo embutido dentro
+                                    do seu elemento pai.</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">inline-block</th>
+                                <td>A propriedade CSS display: inline-blockcombina características dos elementos inlinee
+                                    block.
+                                    Principais características de display: inline-block:
+                                    Fluxos em linha:
+                                    Semelhante aos inlineelementos, inline-blockos elementos aparecem na mesma linha que
+                                    o conteúdo ao redor e não forçam uma quebra de linha antes ou depois deles.</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer mt-auto">
+
+
+        <ul class="nav justify-content-center"
+            style="background-image: linear-gradient(to right, #bb12eb, #ff2aa4, #ff817f, #ffc28f, #fff3d0);">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TODOS OSS DIRETOS RESERVADOS @2025</a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
