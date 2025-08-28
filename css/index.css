@@ -1,0 +1,10 @@
+body{background-color:chocolate;}
+*{ margin:0;
+padding: 0;}
+
+#cabecalho{
+    height: 15vh;
+    width: 100vw;}
+   
+
+#corpreto{ background-image: linear-gradient(to right top, #1774ff, #6948aa, #5c2861, #37162a, #000000)!important;}
